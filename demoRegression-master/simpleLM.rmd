@@ -64,4 +64,4 @@ cor(bears$LENGTH,bears$CHEST)
 ```
 ## Conclusion 
 
-Chest is the better predictor of length than neck is because the adjusted r-squared test of the fit for CHEST was larger than the adjusted r squared of the fit for NECK. 
+Chest is shown to be the better predictor of length than neck is because the adjusted r-squared test of the fit for CHEST was larger than the adjusted r squared of the fit for NECK. 
