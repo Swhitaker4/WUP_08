@@ -31,6 +31,7 @@ summary.lm(simp)
 Neck as a variable for determining a bear's length and adjusted R square of 0.7476
 
 The scatter plot shows as the neck size increases, so does length. Thus, neck size is the better predictor to determine length .
+
 ## now predict the length of a bear who has a neck of 17, 22 and 26
 
 
@@ -54,6 +55,9 @@ plot(LENGTH~CHEST,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
+
+
+This Scatter plot shows that as the CHEST size goes up, so does length. Thus, CHEST size is the better predictor to determine the length of a bear. 
 
 ```{r}
 cor(bears$LENGTH,bears$CHEST)
